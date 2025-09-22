@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+* {
+  line-height: 1rem;
+}
+
+@theme {
+  --color-primary: var(--c-primary);
+  --color-background: var(--c-background);
+  --color-text: var(--c-text);
+  --color-card: var(--c-card);
+  --color-border: var(--c-border);
+  --color-input: var(--c-input);
+  --color-danger: var(--c-danger);
+  --color-danger-content: var(--c-danger-content);
+  --color-success: var(--c-success);
+  --color-warning: var(--c-warning);
+  --color-info: var(--c-info);
+}
