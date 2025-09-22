@@ -1,9 +1,10 @@
+import { RouterProvider } from "react-router"
+import routes from "./routes/routes"
 
 function App() {
-
   return (
     <>
-      <h1 className="bg-black text-primary ">Samasemo </h1>
+      <RouterProvider router={routes} />,
     </>
   )
 }
