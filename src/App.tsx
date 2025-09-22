@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-      <h1 className="bg-black text-primary ">Brazilyyy</h1>
+      <h1 className="bg-black text-primary ">Samasemo </h1>
     </>
   )
 }
