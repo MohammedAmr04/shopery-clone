@@ -17,3 +17,39 @@
   --color-warning: var(--c-warning);
   --color-info: var(--c-info);
 }
+
+/* Bootstrap-like container */
+.container {
+  @apply mx-auto px-4;
+}
+
+/* breakpoints Bootstrap */
+@media (min-width: 640px) {
+  .container {
+    @apply max-w-[540px];
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    @apply max-w-[720px];
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    @apply max-w-[960px];
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    @apply max-w-[1140px];
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    @apply max-w-[1320px];
+  }
+}
