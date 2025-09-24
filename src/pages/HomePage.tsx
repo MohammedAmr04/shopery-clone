@@ -1,5 +1,11 @@
+import BannarSection from "../components/home/bannarSection/BannarSection";
+
 function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <div>
+      <BannarSection />
+    </div>
+  );
 }
 
 export default HomePage;
