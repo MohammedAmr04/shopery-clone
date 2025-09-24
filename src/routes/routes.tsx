@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router";
-import SignUp from "../components/SignUp";
+import { MainLayout } from "../components";
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <SignUp/>
+    element: <MainLayout />,
   },
 ]);
 export default routes;

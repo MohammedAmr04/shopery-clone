@@ -1,12 +1,12 @@
 @import 'tailwindcss';
 
-* {
-  line-height: 1rem;
-}
+
+
 
 @theme {
   --color-primary: var(--c-primary);
   --color-background: var(--c-background);
+  --color-light: var(--c-light);
   --color-text: var(--c-text);
   --color-card: var(--c-card);
   --color-border: var(--c-border);

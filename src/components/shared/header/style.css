@@ -1,0 +1,9 @@
+.header-main-layout .ant-select-selector {
+    border: none !important;
+    padding: 0 7px !important;
+    font-size: 12px;
+}
+
+.header-main-layout .ant-select-open .ant-select-selector {
+    box-shadow: none !important;
+}
