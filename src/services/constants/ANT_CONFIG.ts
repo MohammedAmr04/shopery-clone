@@ -9,8 +9,8 @@ const MAIN_THEME_TOKEN: ThemeConfig['token'] = {
   // fontFamily: `var(--font-main)`,
   fontSize: 14,
   fontSizeXL: 16,
-  controlHeight: 34,
-  controlHeightLG: 51,
+  controlHeight: 45,
+  controlHeightLG: 52,
 }
 
 //     --color-border: rgba(233, 235, 236, var(--tw-border-

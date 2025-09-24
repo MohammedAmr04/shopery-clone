@@ -17,3 +17,53 @@
   --color-warning: var(--c-warning);
   --color-info: var(--c-info);
 }
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.form{
+  @apply 
+  bg-background
+  flex
+  justify-center
+  items-center
+  min-h-screen
+  /* min-w-screen */
+}
+.ant-form{
+  padding: 10px;
+}
+.ant-form-item{
+  @apply mb-4
+}
+.ant-input::placeholder {
+  @apply text-info;
+}
+
+.ant-input:focus::placeholder {
+  @apply text-primary; 
+}
+
+.ant-input-password input::placeholder {
+  @apply text-info;
+}
+
+.ant-input-password input:focus::placeholder {
+  @apply text-primary;
+}
+
+.ant-btn{
+  @apply rounded-4xl font-semibold 
+}
+a,.remeber{
+  @apply text-info
+}
+h4{
+  @apply text-text
+}
+a:hover{
+  @apply text-primary underline
+}
+::placeholder{
+  @apply text-primary
+}
