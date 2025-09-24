@@ -22,7 +22,7 @@ function HeaderMiddle() {
       </div>
       <div className="flex items-center gap-4">
         <Heart size="32" color="#1a1a1a" />
-        <span className="border-s px-4 flex items-center border-gray-200">
+        <span className="border-s ps-4 flex items-center border-gray-200">
           <ShoppingBag
             size="32"
             color="#1a1a1a"
