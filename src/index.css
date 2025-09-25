@@ -16,4 +16,20 @@
   --color-success: var(--c-success);
   --color-warning: var(--c-warning);
   --color-info: var(--c-info);
+  --font-poppins: "Poppins", sans-serif;
+}
+.ant-input::placeholder,
+.ant-input-password input::placeholder {
+  color: var(--c-text);
+  opacity: 1; /* ensure consistent visibility */
+}
+.ant-form-item{
+  @apply mb-4
+}
+.ant-form{
+  @apply p-8;
+}
+
+a{
+  @apply text-text
 }
