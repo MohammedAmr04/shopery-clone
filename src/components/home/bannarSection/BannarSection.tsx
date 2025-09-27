@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 function BannarSection() {
   return (
-    <section className="py-6 ">
+    <section className="md:py-6">
       <div className="container    grid gap-6 grid-cols-1 md:grid-cols-3">
         <div
           className="col-span-1 md:col-span-2 relative flex items-center h-screen overflow-hidden rounded-2xl
