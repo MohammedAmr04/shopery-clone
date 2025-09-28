@@ -1,6 +1,7 @@
 import BannarSection from "../components/home/bannarSection/BannarSection";
 import FeaturedSection from "../components/home/featuredSection/FeaturedSection";
 import PopularCategories from "../components/home/popularCategories/PopularCategories";
+import PopularProducts from "../components/home/popularProducts/PopularProducts";
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       <BannarSection />
       <FeaturedSection />
       <PopularCategories />
+      <PopularProducts />
     </div>
   );
 }
