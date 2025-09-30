@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router";
-import SignUp from "../components/SignUp";
+import Faq from "../components/faqs/Faq";
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <SignUp/>
+    element: <Faq/>
   },
 ]);
 export default routes;
