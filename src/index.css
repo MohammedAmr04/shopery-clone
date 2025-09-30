@@ -1,12 +1,12 @@
 @import 'tailwindcss';
 
-* {
-  line-height: 1rem;
-}
+
+
 
 @theme {
   --color-primary: var(--c-primary);
   --color-background: var(--c-background);
+  --color-light: var(--c-light);
   --color-text: var(--c-text);
   --color-card: var(--c-card);
   --color-border: var(--c-border);
@@ -16,20 +16,51 @@
   --color-success: var(--c-success);
   --color-warning: var(--c-warning);
   --color-info: var(--c-info);
-  --font-poppins: "Poppins", sans-serif;
-}
-.ant-input::placeholder,
-.ant-input-password input::placeholder {
-  @apply text-gray-400
-   /* ensure consistent visibility */
-}
-.ant-form-item{
-  @apply mb-4
-}
-.ant-form{
-  @apply p-8;
+    --color-textcontact:var(--c-textcontact);
+  --color-icon:var(--c-icon);
+
 }
 
-a{
-  @apply text-text
+/* Bootstrap-like container */
+.container {
+  @apply mx-auto px-4;
+}
+
+/* breakpoints Bootstrap */
+@media (min-width: 640px) {
+  .container {
+    @apply max-w-[540px];
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    @apply max-w-[720px];
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    @apply max-w-[960px];
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    @apply max-w-[1140px];
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    @apply max-w-[1320px];
+  }
+}
+
+.general-shadow {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
 }
