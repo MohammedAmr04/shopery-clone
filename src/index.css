@@ -20,8 +20,8 @@
 }
 .ant-input::placeholder,
 .ant-input-password input::placeholder {
-  color: var(--c-text);
-  opacity: 1; /* ensure consistent visibility */
+  @apply text-gray-400
+   /* ensure consistent visibility */
 }
 .ant-form-item{
   @apply mb-4

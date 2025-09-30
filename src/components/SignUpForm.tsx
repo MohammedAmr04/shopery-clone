@@ -13,7 +13,7 @@ type FieldType = {
 const SignUp: React.FC = () => (
   <div className="flex justify-center items-center py-20 bg-background">
     <div className="bg-background shadow-md rounded-xl px-8 pt-10 pb-8 w-md">
-      <h1 className="text-3xl font-semibold leading-tight text-center mb-6 font-poppins">Create an Account</h1>
+      <h1 className="text-3xl font-semibold leading-tight text-center mb-6 font-poppins text-gray-900">Create an Account</h1>
       <Form
         name="basic"
         labelCol={{ span: 8 }}
@@ -28,7 +28,7 @@ const SignUp: React.FC = () => (
           wrapperCol={{ span: 24 }}
           labelCol={{ span: 0 }}
         >
-          <Input placeholder="email" size="large" className="placeholder-[var(--ant-primary-color)]" />
+          <Input placeholder="Email" size="large" className="placeholder-[var(--ant-primary-color)]" />
         </Form.Item>
 
         <Form.Item<FieldType>
@@ -37,7 +37,7 @@ const SignUp: React.FC = () => (
           wrapperCol={{ span: 24 }}
           labelCol={{ span: 0 }}
         >
-          <Input.Password placeholder="password" size="large" />
+          <Input.Password placeholder="Password" size="large" />
         </Form.Item>
 
         <Form.Item<FieldType>
