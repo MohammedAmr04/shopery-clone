@@ -3,6 +3,10 @@ import { MainLayout } from "../components";
 import HomePage from "../pages/HomePage";
 import LoginPage from "../pages/LoginPage";
 import SignUpPage from "../pages/SignUpPage";
+import SignUp from "../components/SignUp";
+import Login from "../components/Login";
+import Contact from "../pages/Contact";
+
 
 const routes = createBrowserRouter([
   {
@@ -19,4 +23,17 @@ const routes = createBrowserRouter([
     ],
   },
 ]);
+
+    element: <Login />,
+  },
+  {
+    path: "/signup",
+    element: <SignUp />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+  },
+]);
+
 export default routes;

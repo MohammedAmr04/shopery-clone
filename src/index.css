@@ -57,3 +57,10 @@
 .general-shadow {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
+  --color-textcontact:var(--c-textcontact);
+  --color-icon:var(--c-icon)
+}
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
