@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router";
 import { MainLayout } from "../components";
 import HomePage from "../pages/HomePage";
-import SignUp from "../components/SignUp";
-import Login from "../components/Login";
-import Contact from "../pages/Contact";
+import SignUp from "../components/auth/SignUp";
+import Login from "../components/auth/LoginForm";
+import Contact from "../pages/ContactPage";
 
 
 const routes = createBrowserRouter([

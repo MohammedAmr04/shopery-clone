@@ -22,7 +22,7 @@ const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = (errorInfo) => {
 const Login: React.FC = () => (
   <div className="flex justify-center items-center min-h-screen ">
     <div className="bg-background shadow-md rounded-2xl px-3 pt-5 pb-8 w-md">
-      <Title className="text-text title text-3xl font-semibold text-center mb-6 poppins">
+      <Title className="!text-text title text-3xl font-semibold text-center mb-6 poppins">
         Sign In
       </Title>
 

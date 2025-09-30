@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Input, Button, Typography } from "antd";
-import Breadcrumb from "../components/Breadcrumbpage";
+import Breadcrumb from "../components/ui/BreadcrumbComponent";
 import { FiPhoneCall } from "react-icons/fi";
 import { PiMapPinLineThin } from "react-icons/pi";
 import { HiOutlineMailOpen } from "react-icons/hi";
