@@ -12,6 +12,8 @@ export const MAIN_COLORS = {
     success: '#136741',
     warning: '#FFB200',
     info: '#808080',
+    textcontact:"#333333",
+    icon:"#2C742F",
   },
   dark: {
     primary: '#000000',

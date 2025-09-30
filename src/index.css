@@ -16,4 +16,10 @@
   --color-success: var(--c-success);
   --color-warning: var(--c-warning);
   --color-info: var(--c-info);
+  --color-textcontact:var(--c-textcontact);
+  --color-icon:var(--c-icon)
 }
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
