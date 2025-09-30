@@ -22,7 +22,7 @@ const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = (errorInfo) => {
 const Login: React.FC = () => (
   <div className="flex justify-center items-center min-h-screen ">
     <div className="bg-background shadow-md rounded-2xl px-3 pt-5 pb-8 w-md">
-      <Title className="title text-3xl font-semibold text-center mb-6 poppins">
+      <Title className="text-text title text-3xl font-semibold text-center mb-6 poppins">
         Sign In
       </Title>
 
@@ -93,7 +93,7 @@ const Login: React.FC = () => (
         </Form.Item>
         <p className="text-center text-gray-600 font-medium">
           Don’t have account?{" "}
-          <Link to="/SignUp" className="font-semibold text-text">
+          <Link to="/src/components/SignUp.tsx" className="font-semibold text-text">
             <span className="text-text hover:text-primary hover:underline">
               Register
             </span>

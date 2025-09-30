@@ -16,6 +16,9 @@
   --color-success: var(--c-success);
   --color-warning: var(--c-warning);
   --color-info: var(--c-info);
+    --color-textcontact:var(--c-textcontact);
+  --color-icon:var(--c-icon);
+
 }
 
 /* Bootstrap-like container */
@@ -57,10 +60,9 @@
 .general-shadow {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-  --color-textcontact:var(--c-textcontact);
-  --color-icon:var(--c-icon)
-}
+
 .poppins {
   font-family: 'Poppins', sans-serif;
 }
+
 
