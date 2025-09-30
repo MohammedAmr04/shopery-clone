@@ -1,3 +1,4 @@
+
 // EDIT COLORS ALSO IN 'tailwind.config', 'general.css' and 'ANTD_THEME' files
 import { theme, type ThemeConfig } from 'antd'
 import { MAIN_COLORS } from './COLORS'
@@ -9,8 +10,8 @@ const MAIN_THEME_TOKEN: ThemeConfig['token'] = {
   // fontFamily: `var(--font-main)`,
   fontSize: 14,
   fontSizeXL: 16,
-  controlHeight: 34,
-  controlHeightLG: 51,
+  controlHeight: 45,
+  controlHeightLG: 52,
 }
 
 //     --color-border: rgba(233, 235, 236, var(--tw-border-
@@ -23,7 +24,35 @@ export const ANTD_THEME: ThemeConfig = {
     colorBorder: MAIN_COLORS.light.border,
     ...MAIN_THEME_TOKEN,
   },
-  components: {},
+  components: {
+     Typography: {
+      colorTextHeading: MAIN_COLORS.light.text,
+      fontSize:32 
+    },
+    Form:{
+     borderRadius:6,
+     lineWidth: 1,              
+    lineType: "solid",
+    colorBorder:MAIN_COLORS.light.border,
+      itemMarginBottom: 24, 
+      padding:20,
+    },
+    Input: {
+      controlHeightLG: 49,            
+      paddingInline: 16,          
+      paddingBlock: 14,          
+      borderRadiusLG: 6,         
+      colorBgContainer: "#fff",
+      colorText: MAIN_COLORS.light.text,
+      lineWidth: 1,              
+      lineType: "solid",
+    },
+    Checkbox: {
+      colorPrimary: MAIN_COLORS.light.primary,
+          controlInteractiveSize: 20, 
+    },
+  
+  },
 }
 
 export const ANTD_THEME_DARK: ThemeConfig = {
