@@ -9,7 +9,7 @@ export const MAIN_COLORS = {
     input: '#FFFFFF',
     danger: '#B81428',
     'danger-content': '#FFD8E4',
-    success: '#136741',
+    success: '#84D187',
     warning: '#FFB200',
     info: '#808080',
   },

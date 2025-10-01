@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router";
-import Faq from "../components/faqs/Faq";
+import Error404 from "../components/error/Error404";
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <Faq/>
+    element: <Error404/>
   },
 ]);
 export default routes;
