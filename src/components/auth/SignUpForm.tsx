@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Checkbox, Form, Input } from "antd";
+import { Button, Checkbox, Form, Input, type FormProps } from "antd";
 import { Link } from "react-router";
 
 type FieldType = {
@@ -9,6 +9,13 @@ type FieldType = {
   accept?: string;
 };
 
+const onFinish: FormProps<FieldType>['onFinish'] = (values) => {
+  console.log('Success:', values);
+};
+
+const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = (errorInfo) => {
+  console.log('Failed:', errorInfo);
+};
 
 const SignUp: React.FC = () => (
   <div className="flex justify-center items-center py-20 bg-background">
@@ -20,6 +27,8 @@ const SignUp: React.FC = () => (
         wrapperCol={{ span: 16 }}
         style={{ maxWidth: 600 }}
         initialValues={{ remember: true }}
+        onFinish={onFinish}
+        onFinishFailed={onFinishFailed}
         autoComplete="off"
       >
         <Form.Item<FieldType>
