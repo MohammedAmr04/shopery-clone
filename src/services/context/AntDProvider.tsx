@@ -14,3 +14,4 @@ export const AntDProvider: React.FC<{ children: React.ReactNode }> = ({
     </ConfigProvider>
   )
 }
+
