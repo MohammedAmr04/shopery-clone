@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router";
+import Error404 from "../components/error/Error404";
 import { MainLayout } from "../components";
 import HomePage from "../pages/HomePage";
 import SignUp from "../components/auth/SignUp";
@@ -9,6 +10,7 @@ import Contact from "../pages/ContactPage";
 const routes = createBrowserRouter([
   {
     path: "/",
+    element: <Error404/>,
     element: <MainLayout />,
     children: [
       { index: true, element: <HomePage /> },
