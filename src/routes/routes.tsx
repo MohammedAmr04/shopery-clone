@@ -10,8 +10,8 @@ import Contact from "../pages/ContactPage";
 const routes = createBrowserRouter([
   {
     path: "/",
-    errorElement: <Error404/>,
     element: <MainLayout />,
+    errorElement: <Error404/>,
     children: [
       { index: true, element: <HomePage /> },
       { path: "shop", element: <div>Shop Page</div> },

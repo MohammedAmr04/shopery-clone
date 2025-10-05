@@ -1,15 +1,26 @@
+import { useAppDispatch } from "../../../services/store/hooks/hooks";
+import { addToWishlist } from "../../../services/store/wishlistSlice/wishlistSlice";
 import type { IProduct } from "./productsData";
+
+
 
 function ProductComponent({
   title,
   price,
   //   addToCart,
-  //   favorite,
+    // favorite,
   img,
   sale,
+  id,
 }: IProduct) {
+
+  const dispatch = useAppDispatch();
+  const handleAddToFav = (id:number) => {
+    dispatch(addToWishlist(id))
+    
+  }
   return (
-    <div className="  border border-gray-100 duration-300 hover:border-[#2c742f]">
+    <div onClick={()=>handleAddToFav(id)} className="border border-gray-100 duration-300 hover:border-[#2c742f]">
       <div className="w-full p-1.5 h-[230px] flex items-center relative justify-center">
         {img}
         {sale && (
